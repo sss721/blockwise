@@ -3,6 +3,8 @@
 Retail site selection for Manhattan (can be expanded to other cities), 
 built entirely on Overture Maps place data.
 
+<img width="1509" height="745" alt="Screenshot 2026-09-09 at 5 59 29 PM" src="https://github.com/user-attachments/assets/25eae445-efb2-4944-874d-a42a56e7ca8e" />
+
 Pick a business type (specialty coffee, boutique fitness, a wine bar, twelve
 options in all) and Blockwise scores every ~150m block in Manhattan on how
 good a spot it is to open one: is it near the right kind of neighborhood, is
