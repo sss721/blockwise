@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Blockwise &mdash; Manhattan Retail Site Selection</title>
+<meta name="description" content="Find underserved blocks for a consumer brand's next Manhattan location, built on open Overture Maps place data." />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div id="map"></div>
+
+<div id="control-panel" class="panel">
+  <div class="brand">
+    <div class="brand-mark">BLOCKWISE</div>
+  </div>
+  <div class="brand-sub">Retail site selection for Manhattan &middot; where to open next, built on open map data</div>
+
+  <div class="section-label">What are you opening?</div>
+  <div id="business-type-row" ></div>
+  <div class="business-type-blurb" id="business-type-blurb"></div>
+
+  <div class="section-label">Find a place</div>
+  <div class="search-wrap">
+    <input id="search" type="text" placeholder="Search a business in Manhattan&hellip;" autocomplete="off" />
+    <div id="search-results"></div>
+  </div>
+
+  <div class="section-label">Tune the model <span class="info-icon" data-tooltip="These three sliders control how much each factor counts toward the Opportunity Score: how well it matches complementary businesses, how little competition there is, and overall foot traffic. They always add up to 100, raise one and the others scale down automatically.">&#9432;</span></div>
+  <div id="tuner">
+    <div class="slider-row">
+      <div class="row-top"><span>Signal fit</span><b id="w-signal-val">45</b></div>
+      <input type="range" id="w-signal" min="0" max="100" value="45" />
+    </div>
+    <div class="slider-row">
+      <div class="row-top"><span>Low competition</span><b id="w-competition-val">35</b></div>
+      <input type="range" id="w-competition" min="0" max="100" value="35" />
+    </div>
+    <div class="slider-row">
+      <div class="row-top"><span>Foot traffic</span><b id="w-foot-val">20</b></div>
+      <input type="range" id="w-foot" min="0" max="100" value="20" />
+    </div>
+  </div>
+</div>
+
+<div id="legend" class="panel">
+  <button id="how-toggle">How this works</button>
+</div>
+
+<div id="how-panel" class="panel">
+  <button id="how-close" aria-label="Close">&times;</button>
+  <h3>How to use Blockwise</h3>
+  <p>Pick what you're opening from the dropdown to score every block for that business, or leave it on "Search by category" to see plain foot traffic. Click any block on the map for its full score breakdown and the nearby places driving it, or pin two blocks to compare them side by side. Use the sliders under "Tune the model" to reweight what matters most to you, and search to jump straight to a specific business.</p>
+  <h3>How the score works</h3>
+  <div id="how-content"></div>
+</div>
+
+<div id="detail-panel" class="panel"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

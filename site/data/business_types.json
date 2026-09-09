@@ -1,0 +1,214 @@
+{
+  "boutique_fitness": {
+    "label": "Boutique Fitness Studio",
+    "icon": "🧘",
+    "blurb": "Yoga, pilates, boxing, barre -- studio-format fitness.",
+    "competitor_categories": [
+      "yoga_studio",
+      "pilates_studio",
+      "gym",
+      "boxing_gym",
+      "barre_classes",
+      "dance_school"
+    ],
+    "signal_categories": [
+      "smoothie_juice_bar",
+      "health_food_store",
+      "health_food_restaurant",
+      "day_spa",
+      "spas",
+      "vegan_restaurant",
+      "vegetarian_restaurant"
+    ]
+  },
+  "specialty_coffee": {
+    "label": "Specialty Coffee Shop",
+    "icon": "☕",
+    "blurb": "Independent, single-origin-and-oat-milk coffee.",
+    "competitor_categories": [
+      "coffee_shop",
+      "cafe",
+      "coffee_roastery"
+    ],
+    "signal_categories": [
+      "bakery",
+      "bookstore",
+      "used_bookstore",
+      "coworking_space",
+      "shared_office_space",
+      "art_gallery",
+      "yoga_studio"
+    ]
+  },
+  "skincare_beauty": {
+    "label": "Skincare & Beauty Retail",
+    "icon": "🧴",
+    "blurb": "Clean-beauty and skincare retail, not the service side.",
+    "competitor_categories": [
+      "cosmetic_and_beauty_supplies",
+      "beauty_product_supplier",
+      "skin_care"
+    ],
+    "signal_categories": [
+      "beauty_salon",
+      "nail_salon",
+      "day_spa",
+      "medical_spa",
+      "hair_salon",
+      "womens_clothing_store",
+      "boutique"
+    ]
+  },
+  "organic_grocery": {
+    "label": "Natural & Organic Grocery",
+    "icon": "🥬",
+    "blurb": "Health-food-forward grocery, think a scrappy Erewhon.",
+    "competitor_categories": [
+      "organic_grocery_store",
+      "health_food_store",
+      "grocery_store"
+    ],
+    "signal_categories": [
+      "yoga_studio",
+      "gym",
+      "pilates_studio",
+      "vegan_restaurant",
+      "vegetarian_restaurant",
+      "smoothie_juice_bar"
+    ]
+  },
+  "wine_cocktail_bar": {
+    "label": "Wine & Cocktail Bar",
+    "icon": "🍷",
+    "blurb": "A grown-up drinks spot, not a dive or sports bar.",
+    "competitor_categories": [
+      "wine_bar",
+      "cocktail_bar",
+      "beer_bar",
+      "champagne_bar",
+      "whiskey_bar"
+    ],
+    "signal_categories": [
+      "italian_restaurant",
+      "art_gallery",
+      "theatre",
+      "cinema",
+      "restaurant"
+    ]
+  },
+  "independent_bookstore": {
+    "label": "Independent Bookstore",
+    "icon": "📚",
+    "blurb": "General-interest new or used books.",
+    "competitor_categories": [
+      "bookstore",
+      "used_bookstore",
+      "academic_bookstore"
+    ],
+    "signal_categories": [
+      "cafe",
+      "coffee_shop",
+      "art_gallery",
+      "museum",
+      "theatre"
+    ]
+  },
+  "fast_casual": {
+    "label": "Fast-Casual Restaurant",
+    "icon": "🥗",
+    "blurb": "Quick, healthy-leaning lunch spot for office workers.",
+    "competitor_categories": [
+      "fast_food_restaurant",
+      "sandwich_shop",
+      "health_food_restaurant",
+      "salad_bar"
+    ],
+    "signal_categories": [
+      "corporate_office",
+      "software_development",
+      "coworking_space",
+      "advertising_agency",
+      "marketing_agency",
+      "gym"
+    ]
+  },
+  "pet_store": {
+    "label": "Pet Store & Grooming",
+    "icon": "🐾",
+    "blurb": "Pet supplies and grooming for dog- and cat-heavy blocks.",
+    "competitor_categories": [
+      "pet_store",
+      "pet_groomer",
+      "aquatic_pet_store"
+    ],
+    "signal_categories": [
+      "dog_park",
+      "park"
+    ]
+  },
+  "family_kids": {
+    "label": "Children's & Family Store",
+    "icon": "🧸",
+    "blurb": "Kids' clothing, toys, and gear.",
+    "competitor_categories": [
+      "childrens_clothing_store",
+      "toy_store",
+      "baby_gear_and_furniture"
+    ],
+    "signal_categories": [
+      "child_care_and_day_care",
+      "childrens_museum",
+      "park",
+      "elementary_school"
+    ]
+  },
+  "coworking": {
+    "label": "Co-working / Flex Office",
+    "icon": "💼",
+    "blurb": "Flexible desks and offices for small teams and freelancers.",
+    "competitor_categories": [
+      "coworking_space",
+      "shared_office_space"
+    ],
+    "signal_categories": [
+      "coffee_shop",
+      "corporate_office",
+      "software_development",
+      "marketing_agency",
+      "advertising_agency"
+    ]
+  },
+  "boutique_apparel": {
+    "label": "Boutique Fashion & Apparel",
+    "icon": "👗",
+    "blurb": "Independent clothing boutique, not a mall chain.",
+    "competitor_categories": [
+      "clothing_store",
+      "boutique",
+      "womens_clothing_store",
+      "mens_clothing_store",
+      "designer_clothing"
+    ],
+    "signal_categories": [
+      "jewelry_store",
+      "shoe_store",
+      "hair_salon",
+      "beauty_salon"
+    ]
+  },
+  "bakery_dessert": {
+    "label": "Bakery / Dessert Shop",
+    "icon": "🧁",
+    "blurb": "Pastries, cakes, and sweets.",
+    "competitor_categories": [
+      "bakery",
+      "ice_cream_shop"
+    ],
+    "signal_categories": [
+      "coffee_shop",
+      "cafe",
+      "park",
+      "elementary_school"
+    ]
+  }
+}

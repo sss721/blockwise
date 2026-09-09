@@ -1,0 +1,6 @@
+.venv/
+.vscode/
+data/manhattan_places.parquet
+__pycache__/
+*.pyc
+.DS_Store
